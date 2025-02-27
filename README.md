@@ -24,7 +24,6 @@ making it ideal for **enterprise applications requiring high security, reliabili
 - **Security**: Supports **WS-Security for authentication & encryption**  
 - **Reliability**: Ideal for **banking, telecom, and enterprise applications**  
 
-For more details, see the [WSDL Endpoint](#wsdl-endpoint).
 ## Features
 ✔️ SOAP-based communication using WSDL  
 ✔️ JAX-WS integration with Spring Boot  
