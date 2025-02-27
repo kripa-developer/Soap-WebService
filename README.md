@@ -6,11 +6,10 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Create an XML Schema to Define the Domain](#Create-an-XML-Schema-to-Define-the-Domain)
+- [Generate Domain Classes Based on an XML Schema](#Generate-Domain-Classes-Based-on-an-XML-Schema)
 - [Example SOAP Request](#example-soap-request)
 - [Example SOAP Response](#example-soap-response)
 - [Testing with SOAP UI](#testing-with-soap-ui)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 This project is a **SOAP-based web service** built using **Spring Boot and JAX-WS**.  
@@ -55,3 +54,6 @@ The project needs to include wsdl4j as dependencies in your build file.
 ## Create an XML Schema to Define the Domain
 
 The web service domain is defined in an XML schema file (XSD) that Spring-WS will automatically export as a WSDL.
+
+## Generate Domain Classes Based on an XML Schema  
+The next step is to generate Java classes from the XSD file. The right approach is to do this automatically during build time by using a Maven or Gradle plugin.
